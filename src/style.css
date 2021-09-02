@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap");
+body {
+  background-color: #0f5e97;
+  font-family: 'Roboto', sans-serif;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  padding: .8em;
+  margin-bottom: 5em;
+}
+
+.title-page {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 3em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 3px 8px #094067;
+}
+
+.author-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 4em;
+  border: 5px solid white;
+  margin-top: -6em;
+  margin-bottom: 3em;
+}
+
+.quote-box {
+  background-color: white;
+  padding: 3em;
+  text-align: center;
+  border-radius: 5rem;
+  max-width: 700px;
+}
+
+.quote-box .quote-text {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 1em;
+  color: #0f5e97;
+}
+
+.quote-box .quote-author {
+  display: block;
+  text-align: right;
+  font-size: 1.1rem;
+  margin-bottom: 2em;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+.buttons {
+  padding-top: 2em;
+}
+
+.btn {
+  border-radius: 5em;
+  border: 0;
+  padding: 1em 3em;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #094067;
+  color: #fffffe;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #3da9fc;
+  color: #094067;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.buttons .tweet-btn {
+  margin-top: .5em;
+}
+/*# sourceMappingURL=style.css.map */
